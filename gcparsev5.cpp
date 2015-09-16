@@ -140,7 +140,7 @@ void Gen::setMinHeapValue(float value)
 
 float Gen::getMinHeapValue()
 {
-	minHeap = maxHeap;
+	minHeap = 999999999999;
 	for (int i = 0; i < minHeapValue.size(); i++) 	{
 		if (minHeapValue.at(i) < minHeap) {
 			minHeap = minHeapValue.at(i);
