@@ -72,7 +72,7 @@ class Gplot {
 		const string xLabel = "set xlabel \"Time (sec}\"\n";
 		const string yLabel = "set ylabel \"Kilobytes\"\n";;
 		const string plot = "plot '-' with lines\n";
-		const string term = "set term png size 1920,1080\n";
+		const string term = "set term png size 853,480\n";
 	public:
 		void setGpInput(string);
 		void setNameOfGraph(string);
